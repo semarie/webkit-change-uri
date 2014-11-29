@@ -1,5 +1,5 @@
 CFLAGS += $(shell pkg-config --cflags --libs gtk+-2.0 webkit-1.0)
-CFLAGS += -ggdb
+CFLAGS += -Wall -ggdb
 
 .PHONY: clean
 
